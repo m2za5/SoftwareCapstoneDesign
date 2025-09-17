@@ -205,3 +205,28 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Shap-E outputs
+outputs/
+results/
+checkpoints/
+
+# 모델 파일
+*.ckpt
+*.pt
+*.pth
+
+# 로그/실험 기록
+wandb/
+logs/
+*.log
+
+# 데이터셋 / 캐시
+data/
+datasets/
+*.npz
+*.npy
+*.pkl
+*.h5
+.cache/
+tmp/
