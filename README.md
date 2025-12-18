@@ -10,7 +10,7 @@
 **생성 속도와 기하 품질 간의 trade-off**를 완화하기 위해,
 Shap-E와 DreamFusion을 결합한 **2-stage 하이브리드 파이프라인**을 구현한다.
 
-Shap-E를 통해 텍스트로부터 **빠르게 초기 3D 메쉬(coarse geometry)**를 생성하고,
+Shap-E를 통해 텍스트로부터 빠르게 초기 **3D 메쉬(coarse geometry)** 를 생성하고,
 이를 DreamFusion의 geometry prior로 활용하여
 고품질 메쉬를 보다 안정적으로 생성하는 것을 목표로 한다.
 
